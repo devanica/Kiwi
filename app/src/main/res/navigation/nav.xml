@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav"
+    app:startDestination="@id/smoothiesFragment">
+
+    <fragment
+        android:id="@+id/smoothiesFragment"
+        android:name="kiwi.app.ui.smoothies.SmoothiesFragment"
+        android:label="fragment_smoothies"
+        tools:layout="@layout/fragment_smoothies" >
+        <action
+            android:id="@+id/action_smoothiesFragment_to_smoothieFragment"
+            app:destination="@id/smoothieFragment" />
+        <argument
+            android:name="Smoothie"
+            app:argType="kiwi.app.model.Smoothie" />
+    </fragment>
+    <fragment
+        android:id="@+id/smoothieFragment"
+        android:name="kiwi.app.ui.smoothie.SmoothieFragment"
+        android:label="fragment_smoothie"
+        tools:layout="@layout/fragment_smoothie" />
+</navigation>

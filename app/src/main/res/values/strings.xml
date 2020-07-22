@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Kiwi</string>
+
+    <string name="smoothies">Smoothies</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="base">Base</string>
+
+    <string name="yogurt">Yogurt</string>
+    <string name="milk">Milk</string>
+    <string name="coconut_water">Coconut Water</string>
+    <string name="coffee">Coffee</string>
+    <string name="juice">Juice</string>
+    <string name="almond_milk">Almond Milk</string>
+    <string name="tea">Tea</string>
+    <string name="water">Water</string>
+    <string name="soy_milk">Soy Milk</string>
+    <string name="chocolate_milk">Chocolate Milk</string>
+    <string name="vanilla_yogurt">Vanilla Yogurt</string>
+
+</resources>

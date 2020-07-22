@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="300dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@android:color/transparent"
+    android:layout_marginEnd="5dp"
+    android:id="@+id/cv_smoothie">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark">
+        <ImageView
+            android:id="@+id/iv_smoothie"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:adjustViewBounds="true"
+            tools:src="@drawable/healthy_orange">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tv_smoothieTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="@font/pacifico"
+            android:maxLines="3"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            tools:text="Your Favorite Smoothie">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_smoothieFruit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_smoothieTitle"
+            android:layout_marginStart="10dp"
+            android:layout_toStartOf="@+id/iv_smoothie"
+            android:maxLines="3"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            tools:text="Your Favorite Smoothie">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_smoothieBase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:layout_toStartOf="@+id/iv_smoothie"
+            android:maxLines="3"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            tools:text="Smoothie">
+        </TextView>
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>
